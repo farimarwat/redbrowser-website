@@ -1638,4 +1638,12 @@ p {
   color: #fff;
   background-color: #3698EE;
 }
+
+.img-contributor {
+  width: 300px;
+  aspect-ratio: 16 / 12;   /* Set the desired aspect ratio */
+  object-fit: cover;       /* Fills the container and crops the image */
+  object-position: center top;  /* Aligns the image to the top */
+}
+
 /*# sourceMappingURL=style.css.map */
