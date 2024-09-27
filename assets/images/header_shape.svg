@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1921.757" height="1205.643" viewBox="0 0 1921.757 1205.643">
+  <defs>
+    <linearGradient id="linear-gradient" y1="-0.241" x2="0.791" y2="1.214" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9B111E"/> <!-- Ruby Red -->
+      <stop offset="1" stop-color="#C4424B"/> <!-- Lighter Ruby Red -->
+    </linearGradient>
+    <!-- Define the leaf or shard pattern -->
+    <radialGradient id="leaf-gradient" cx="0.5" cy="0.5" r="0.5" fx="0.5" fy="0.5">
+      <stop offset="0" stop-color="#9B111E" />
+      <stop offset="1" stop-color="#C4424B" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Main Path with gradient -->
+  <path id="Path_7" data-name="Path 7" d="M398,566.389s60.728,430.643,510.094,201.279S2318.847-4.591,2318.847-4.591l-.574-366.1L397.09-370.12Z" transform="translate(-397.09 370.694)" fill="url(#linear-gradient)"/>
+  
+  <!-- Add leaf-like or shard-like elements -->
+  <g id="shards">
+    <ellipse cx="400" cy="600" rx="20" ry="10" fill="url(#leaf-gradient)" transform="rotate(30 400 600)"/>
+    <ellipse cx="500" cy="700" rx="15" ry="7" fill="url(#leaf-gradient)" transform="rotate(-15 500 700)"/>
+    <ellipse cx="600" cy="500" rx="25" ry="12" fill="url(#leaf-gradient)" transform="rotate(45 600 500)"/>
+    <ellipse cx="800" cy="550" rx="18" ry="9" fill="url(#leaf-gradient)" transform="rotate(-20 800 550)"/>
+    <ellipse cx="700" cy="400" rx="22" ry="11" fill="url(#leaf-gradient)" transform="rotate(60 700 400)"/>
+  </g>
+</svg>
