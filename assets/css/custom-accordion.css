@@ -1,0 +1,55 @@
+/* Accordion Styles */
+.accordion {
+    max-width: 600px; /* Set a max-width for the accordion */
+    margin: 20px auto; /* Center the accordion */
+    border: 1px solid #E50914; /* Red border for the accordion */
+    border-radius: 5px; /* Slight rounding of corners */
+}
+
+/* Custom Header */
+.custom-header {
+    background-color: #2C2C2C; /* Dark background for the header */
+}
+
+/* Button Styles */
+.custom-btn {
+    color: #ffffff;  /* White color for text */
+    background-color: #E50914;  /* Red background to match your theme */
+    text-decoration: none;  /* Remove underline */
+    border: none;  /* Remove borders */
+    width: 100%;  /* Make the button full width */
+    text-align: left;  /* Align text to the left */
+    padding: 10px 15px;  /* Padding for better spacing */
+    font-weight: bold;  /* Bold font */
+    cursor: pointer;  /* Add a pointer cursor to indicate it's clickable */
+}
+
+.custom-btn:focus,
+.custom-btn:hover {
+    color: #fff;
+    background-color: #b80611; /* Darker red on hover */
+    text-decoration: none;
+    outline: none; /* Remove focus outline */
+}
+
+/* Card Body */
+.custom-body {
+    background-color: #333333; /* Dark background for the body */
+    color: #f1f1f1;  /* Light text color for readability */
+}
+
+/* Card Styles */
+.card {
+    border: none; /* No border for cards */
+    margin: 0; /* Remove margin between cards */
+}
+
+/* Card Header Styles */
+.card-header {
+    border-bottom: 1px solid #E50914; /* Red bottom border for header */
+}
+
+/* Card Body Styles */
+.card-body {
+    padding: 15px; /* Padding for card body */
+}

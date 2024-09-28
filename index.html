@@ -33,6 +33,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
 
+    <!-- ===== Custom Accordion ===== -->
+     <link rel="stylesheet" href="assets/css/custom-accordion.css">
 
 
 </head>
@@ -245,21 +247,22 @@
 
         <div class="container">
             <div class="row justify-content-center">
+                <h2 class="title">Rules to follow</h2>
                 <div class="col-lg-12">
-                    <h2 class="title">Rules to follow</h2>
+                    
                     <div class="accordion" id="accordionExample">
                         <!-- Keep Your Branch Updated & Submit Pull Requests -->
                         <div class="card">
-                          <div class="card-header" id="headingOne">
+                          <div class="card-header custom-header" id="headingOne">
                             <h2 class="mb-0">
-                              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              <button class="btn custom-btn btn-block text-left custom-btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 ✅ Keep Your Branch Updated & Submit Pull Requests
                               </button>
                             </h2>
                           </div>
                       
                           <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                            <div class="card-body">
+                            <div class="card-body custom-body">
                               Regularly sync your feature branch with the develop branch to avoid merge conflicts. Once your feature is complete, create a pull request for review to ensure seamless integration.
                             </div>
                           </div>
@@ -267,15 +270,15 @@
                       
                         <!-- Use Android Studio Profilers for Performance Optimization -->
                         <div class="card">
-                          <div class="card-header" id="headingTwo">
+                          <div class="card-header custom-header" id="headingTwo">
                             <h2 class="mb-0">
-                              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              <button class="btn custom-btn btn-block text-left custom-btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 ✅ Use Android Studio Profilers for Performance Optimization
                               </button>
                             </h2>
                           </div>
                           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                            <div class="card-body">
+                            <div class="card-body custom-body">
                               It is essential to use Android Studio’s profiling tools:
                               <ul>
                                 <li><strong>Memory Profiler</strong>: Identify and resolve memory leaks.</li>
@@ -287,15 +290,15 @@
                       
                         <!-- Coroutines for Thread Management -->
                         <div class="card">
-                          <div class="card-header" id="headingThree">
+                          <div class="card-header custom-header" id="headingThree">
                             <h2 class="mb-0">
-                              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              <button class="btn custom-btn btn-block text-left custom-btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 ✅ Coroutines for Thread Management
                               </button>
                             </h2>
                           </div>
                           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                            <div class="card-body">
+                            <div class="card-body custom-body">
                               Handle all background tasks with <strong>Kotlin Coroutines</strong>, ensuring that no heavy operations run on the UI thread to avoid ANRs and maintain a smooth user experience.
                             </div>
                           </div>
@@ -303,15 +306,15 @@
                       
                         <!-- Adhere to SOLID Principles -->
                         <div class="card">
-                          <div class="card-header" id="headingFour">
+                          <div class="card-header custom-header" id="headingFour">
                             <h2 class="mb-0">
-                              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              <button class="btn custom-btn btn-block text-left custom-btn collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                 ✅ Adhere to SOLID Principles
                               </button>
                             </h2>
                           </div>
                           <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                            <div class="card-body">
+                            <div class="card-body custom-body">
                               Your code must strictly follow the <strong>SOLID principles</strong>:
                               <ul>
                                 <li>Single Responsibility</li>
@@ -320,22 +323,21 @@
                                 <li>Interface Segregation</li>
                                 <li>Dependency Inversion</li>
                               </ul>
-                              This ensures that the codebase remains clean, scalable, and easy to maintain.
                             </div>
                           </div>
                         </div>
                       
                         <!-- Follow Design Patterns -->
                         <div class="card">
-                          <div class="card-header" id="headingFive">
+                          <div class="card-header custom-header" id="headingFive">
                             <h2 class="mb-0">
-                              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                              <button class="btn custom-btn btn-block text-left custom-btn collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                 ✅ Follow Design Patterns
                               </button>
                             </h2>
                           </div>
                           <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-                            <div class="card-body">
+                            <div class="card-body custom-body">
                               Contributors are required to implement the following design patterns for consistency and readability:
                               <ul>
                                 <li>Builder</li>
@@ -352,15 +354,15 @@
                       
                         <!-- Defensive Programming for Crash Prevention -->
                         <div class="card">
-                          <div class="card-header" id="headingSix">
+                          <div class="card-header custom-header" id="headingSix">
                             <h2 class="mb-0">
-                              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                              <button class="btn custom-btn btn-block text-left custom-btn collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                 ✅ Defensive Programming for Crash Prevention
                               </button>
                             </h2>
                           </div>
                           <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
-                            <div class="card-body">
+                            <div class="card-body custom-body">
                               Apply <strong>Defensive Programming</strong> techniques to minimize crashes and bugs:
                               <ul>
                                 <li>Validate all inputs and handle edge cases.</li>
@@ -373,20 +375,21 @@
                       
                         <!-- Use StrictMode to Enforce Best Practices -->
                         <div class="card">
-                          <div class="card-header" id="headingSeven">
+                          <div class="card-header custom-header" id="headingSeven">
                             <h2 class="mb-0">
-                              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                              <button class="btn custom-btn btn-block text-left custom-btn collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                                 ✅ Use StrictMode to Enforce Best Practices
                               </button>
                             </h2>
                           </div>
                           <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
-                            <div class="card-body">
+                            <div class="card-body custom-body">
                               Enable <strong>StrictMode</strong> during development to detect potential performance and resource management issues. This helps ensure the code is free from inefficiencies and adheres to best practices.
                             </div>
                           </div>
                         </div>
                       </div>
+                      
                 </div>
                   
                   
